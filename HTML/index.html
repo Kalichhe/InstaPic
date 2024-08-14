@@ -63,6 +63,32 @@
         .login-box a {
             display: block;
         }
+
+        .btn {
+            background: #086788;
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 20px;
+            margin: 0 10px;
+            border-radius: 18px;
+            float: right;
+            width: 60px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            opacity: .8;
+        }
+
+        .small {
+            font-size: 14px;
+            padding: 10px 15px;
+        }
+
+        .blue {
+            background: #246eb9;
+        }
     </style>
 </head>
 <body>
@@ -76,7 +102,7 @@
             <h2>Login</h2>
             <input type="text" id="user_name" placeholder="User name">
             <input type="password" id="password" placeholder="Password">
-            <a href="./home.html">Sign in</a> <a href="./sign_up.html">Sign up</a>
+            <a href="./home.html" class="btn small blue sign_in">Sign in</a> <a href="./sign_up.html" class="btn small blue sign_up">Sign up</a>
         </div>
     </main>
     <footer>
