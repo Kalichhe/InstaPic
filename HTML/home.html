@@ -13,45 +13,49 @@
 <body>
 
     <header>
-        <h1>InstaPic</h1>
-        <ul>
-            <li>
-                Home
-            </li>
-            <li>
-                Upload photo
-            </li>
-            <li>
-                Search
-            </li>
-            <li>
-                <a href="./index.html">Log out</a>
-            </li>
-        </ul>
+        <nav>
+            <ul>
+                <li>InstaPic</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">My profile</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">New Publication</a></li>
+                <li><a href="./index.html">Log out</a></li>
+            </ul>
+         </nav>
     </header>
 
     <main>
-        <section>
-            <img src="/images/image.jpg" height="200px" alt="profile">
-            <div>Hello Carlos</div>
+        <section id="profile">
+            <div>
+                <img src="/images/image.jpg" height="200px" alt="profile" id="profile_">
+                <span>Hello Carlos</span>
+            </div>
+            <div>
+                <span>10</span>
+                <span>Publications</span>
+            </div>
+            <div>
+                <span>5</span>
+                <span>Followers</span>
+            </div>
+            <div>
+                <span>250</span>
+                <span>Friend requests</span>
+            </div>
         </section>
-        <section>
-            <div>You have 20 followers</div>
-            <div>You hava 10 publications</div>
-            <div>You have 1000 friend requests</div>
+        <section id="gallery">
+            <img src="/images/image1.jpg" alt="1">
+            <img src="/images/image2.jpg" alt="2">
+            <img src="/images/image3.jpg" alt="3">
+            <img src="/images/image4.jpg" alt="4">
+            <img src="/images/image5.jpg" alt="5">
+            <img src="/images/image6.jpg" alt="6">
         </section>
-        <ul>
-            <li><img src="/images/image1.jpg" width="20%" alt="1"></li>
-            <li><img src="/images/image2.jpg" width="20%" alt="2"></li>
-            <li><img src="/images/image3.jpg" width="20%" alt="3"></li>
-            <li><img src="/images/image4.jpg" width="20%" alt="4"></li>
-            <li><img src="/images/image5.jpg" width="20%" alt="5"></li>
-            <li><img src="/images/image6.jpg" width="20%" alt="6"></li>
-        </ul>
     </main>
 
     <footer>
-        <ul>
+        <ul class="social-icons">
             <li><i class="fab fa-whatsapp"></i></li>
             <li><i class="fab fa-linkedin"></i></li>
             <li><i class="fab fa-facebook"></i></li>
